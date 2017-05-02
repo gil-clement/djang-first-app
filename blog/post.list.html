@@ -1,0 +1,18 @@
+aty </title>
+	</head>
+	
+	<body>
+		<div>
+			<h2> <a href="https://google.com">va sur google </a> </h2>
+		</div>
+		{% for post in posts %}	
+		<div>
+			
+            		<h2><a href="">{{posts.title}}</a></h2>
+            		<p>publcation: {{ post.published_date }}</p>
+			<p>{{posts.text|linebreaksbr}}</p>
+        	</div>
+		{% endfor %}
+	</body>
+
+</html>
