@@ -25,7 +25,7 @@ SECRET_KEY = 'ml15)s*k=c97=!cg)wa0rg_(fkos7#8-@zui-_ki@kiu7!izc8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gilclement.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
